@@ -1,0 +1,76 @@
+* {
+  font-family: 'Raleway', sans-serif;
+  box-sizing: border-box;
+}
+
+.wrap {
+  margin: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.card {
+  width: 25vw;
+  height: 75vh;
+  border: 2px solid;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  width: 100px;
+  margin-top: 50px;
+}
+
+img {
+  width: 100px;
+  margin-top: 50px;
+}
+
+
+.title > h2 {
+  font-weight: 600;
+  font-size: 50px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.paragraph > p {
+  text-align: center;
+  padding: 25px;
+  font-size: 25px;
+  font-weight:900;
+}
+
+.button {
+  width: 85%;
+}
+
+button {
+  width: 100%;
+  height: 60px;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: white;
+  background-color: black;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+.card:hover {
+  background-color: #E2306C;
+  border: 2px solid #E2306C;
+  color: white;
+}
+
+.card:hover div img {
+  filter: invert(100%);
+}
+
+.card:hover div button {
+  filter: invert(100%);
+  color: #30e248e5;
+}
